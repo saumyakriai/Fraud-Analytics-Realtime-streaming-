@@ -20,7 +20,7 @@ One more collection for non- fradulant data as collection non_fraud.
 
 Once we have data into mongodb, we need to send the mail and set trigger.
 
-Fraud Condition:
+**Fraud Condition:**
 1)If transaction amount is usually high. ex amount > 50000;
 if amount > 50000:
   fraud_reason.append(f"blacklisted merchant{merchant}")
